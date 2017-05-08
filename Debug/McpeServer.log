@@ -1,0 +1,4 @@
+﻿  Main.cpp
+g:\build2\mcpeserver\main.cpp(36): warning C4065: l'instruction switch contient 'default' mais aucune étiquette 'case'
+  McpeServer.vcxproj -> G:\build2\Debug\McpeServer.exe
+  McpeServer.vcxproj -> G:\build2\Debug\McpeServer.pdb (Partial PDB)

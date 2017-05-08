@@ -1,0 +1,186 @@
+﻿  Base64Encoder.cpp
+  BitStream.cpp
+  CCRakNetSlidingWindow.cpp
+  CCRakNetUDT.cpp
+  CheckSum.cpp
+  CloudClient.cpp
+  CloudCommon.cpp
+  CloudServer.cpp
+  CommandParserInterface.cpp
+  ConnectionGraph2.cpp
+  ConsoleServer.cpp
+  DataCompressor.cpp
+  DirectoryDeltaTransfer.cpp
+  DR_SHA1.cpp
+  DS_BytePool.cpp
+  DS_ByteQueue.cpp
+  DS_HuffmanEncodingTree.cpp
+  DS_Table.cpp
+  DynDNS.cpp
+  EmailSender.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  EpochTimeToString.cpp
+  FileList.cpp
+  FileListTransfer.cpp
+  FileOperations.cpp
+  FormatString.cpp
+  FullyConnectedMesh2.cpp
+  Getche.cpp
+  Gets.cpp
+  GetTime.cpp
+  gettimeofday.cpp
+  GridSectorizer.cpp
+  HTTPConnection.cpp
+  HTTPConnection2.cpp
+  IncrementalReadInterface.cpp
+  Itoa.cpp
+  LinuxStrings.cpp
+  LocklessTypes.cpp
+  LogCommandParser.cpp
+  MessageFilter.cpp
+  NatPunchthroughClient.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  NatPunchthroughServer.cpp
+  NatTypeDetectionClient.cpp
+  NatTypeDetectionCommon.cpp
+  NatTypeDetectionServer.cpp
+  NetworkIDManager.cpp
+  NetworkIDObject.cpp
+  PacketConsoleLogger.cpp
+  PacketFileLogger.cpp
+  PacketizedTCP.cpp
+  PacketLogger.cpp
+  PacketOutputWindowLogger.cpp
+  PluginInterface2.cpp
+  PS4Includes.cpp
+  Rackspace.cpp
+  RakMemoryOverride.cpp
+  RakNetCommandParser.cpp
+  RakNetSocket.cpp
+  RakNetSocket2.cpp
+  RakNetSocket2_360_720.cpp
+  RakNetSocket2_Berkley.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  RakNetSocket2_Berkley_NativeClient.cpp
+  RakNetSocket2_NativeClient.cpp
+  RakNetSocket2_PS3_PS4.cpp
+  RakNetSocket2_PS4.cpp
+  RakNetSocket2_Vita.cpp
+  RakNetSocket2_WindowsStore8.cpp
+  RakNetSocket2_Windows_Linux.cpp
+  RakNetSocket2_Windows_Linux_360.cpp
+  RakNetStatistics.cpp
+  RakNetTransport2.cpp
+  RakNetTypes.cpp
+  RakPeer.cpp
+  RakSleep.cpp
+  RakString.cpp
+  RakThread.cpp
+  RakWString.cpp
+  Rand.cpp
+  RandSync.cpp
+  ReadyEvent.cpp
+  RelayPlugin.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  ReliabilityLayer.cpp
+  ReplicaManager3.cpp
+  Router2.cpp
+  RPC4Plugin.cpp
+  SecureHandshake.cpp
+  SendToThread.cpp
+  SignaledEvent.cpp
+  SimpleMutex.cpp
+  SocketLayer.cpp
+..\..\MCPE\RakNet\Source\SocketLayer.cpp(371): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 2 est de type 'LPVOID'
+..\..\MCPE\RakNet\Source\SocketLayer.cpp(413): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 2 est de type 'LPVOID'
+  StatisticsHistory.cpp
+  StringCompressor.cpp
+  StringTable.cpp
+  SuperFastHash.cpp
+  TableSerializer.cpp
+  TCPInterface.cpp
+  TeamBalancer.cpp
+  TeamManager.cpp
+  TelnetTransport.cpp
+  ThreadsafePacketLogger.cpp
+  TwoWayAuthentication.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  UDPForwarder.cpp
+  UDPProxyClient.cpp
+  UDPProxyCoordinator.cpp
+  UDPProxyServer.cpp
+  VariableDeltaSerializer.cpp
+  VariableListDeltaTracker.cpp
+  VariadicSQLParser.cpp
+  VitaIncludes.cpp
+  WSAStartupSingleton.cpp
+  _FindFirst.cpp
+  Main.cpp
+  Génération de code en cours...
+BitStream.obj : error LNK2019: symbole externe non résolu __imp__htonl@4 référencé dans la fonction "public: static bool __cdecl RakNet::BitStream::IsNetworkOrderInternal(void)" (?IsNetworkOrderInternal@BitStream@RakNet@@SA_NXZ)
+RakNetTypes.obj : error LNK2001: symbole externe non résolu __imp__htonl@4
+UDPProxyServer.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+RakNetTypes.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+RakPeer.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+UDPProxyClient.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+UDPProxyCoordinator.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+CloudCommon.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+ConnectionGraph2.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+FullyConnectedMesh2.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+NatPunchthroughClient.obj : error LNK2001: symbole externe non résolu __imp__ntohs@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__bind@12 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__bind@12
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__bind@12
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__closesocket@4 référencé dans la fonction "public: virtual __thiscall RakNet::RNS2_Berkley::~RNS2_Berkley(void)" (??1RNS2_Berkley@RakNet@@UAE@XZ)
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__closesocket@4
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__closesocket@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__ioctlsocket@12 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__ioctlsocket@12
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__ioctlsocket@12
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__getsockname@12 référencé dans la fonction "protected: static void __cdecl RakNet::RNS2_Berkley::GetSystemAddressIPV4(int,struct RakNet::SystemAddress *)" (?GetSystemAddressIPV4@RNS2_Berkley@RakNet@@KAXHPAUSystemAddress@2@@Z)
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__getsockname@12
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__getsockopt@20 référencé dans la fonction "protected: static int __cdecl RakNet::RNS2_Windows_Linux_360::Send_Windows_Linux_360NoVDP(int,struct RakNet::RNS2_SendParameters *,char const *,unsigned int)" (?Send_Windows_Linux_360NoVDP@RNS2_Windows_Linux_360@RakNet@@KAHHPAURNS2_SendParameters@2@PBDI@Z)
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__htons@4 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+RakNetTypes.obj : error LNK2001: symbole externe non résolu __imp__htons@4
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__htons@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__inet_addr@4 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+RakNetTypes.obj : error LNK2001: symbole externe non résolu __imp__inet_addr@4
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__inet_addr@4
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__inet_addr@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__inet_ntoa@4 référencé dans la fonction "void __cdecl DomainNameToIP_Berkley_IPV4(char const *,char * const)" (?DomainNameToIP_Berkley_IPV4@@YAXPBDQAD@Z)
+RakNetTypes.obj : error LNK2001: symbole externe non résolu __imp__inet_ntoa@4
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__inet_ntoa@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__recvfrom@24 référencé dans la fonction "protected: void __thiscall RakNet::RNS2_Berkley::RecvFromBlockingIPV4(struct RakNet::RNS2RecvStruct *)" (?RecvFromBlockingIPV4@RNS2_Berkley@RakNet@@IAEXPAURNS2RecvStruct@2@@Z)
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__recvfrom@24
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__sendto@24 référencé dans la fonction "protected: static int __cdecl RakNet::RNS2_Windows_Linux_360::Send_Windows_Linux_360NoVDP(int,struct RakNet::RNS2_SendParameters *,char const *,unsigned int)" (?Send_Windows_Linux_360NoVDP@RNS2_Windows_Linux_360@RakNet@@KAHHPAURNS2_SendParameters@2@PBDI@Z)
+Router2.obj : error LNK2001: symbole externe non résolu __imp__sendto@24
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__sendto@24
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__setsockopt@20 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__setsockopt@20
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__setsockopt@20
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__setsockopt@20
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__socket@12 référencé dans la fonction "protected: enum RakNet::RNS2BindResult __thiscall RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IAE?AW4RNS2BindResult@2@PAURNS2_BerkleyBindParameters@2@PBDI@Z)
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__socket@12
+UDPForwarder.obj : error LNK2001: symbole externe non résolu __imp__socket@12
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__gethostbyname@4 référencé dans la fonction "void __cdecl DomainNameToIP_Berkley_IPV4(char const *,char * const)" (?DomainNameToIP_Berkley_IPV4@@YAXPBDQAD@Z)
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__gethostbyname@4
+TCPInterface.obj : error LNK2001: symbole externe non résolu __imp__gethostbyname@4
+RakNetSocket2.obj : error LNK2019: symbole externe non résolu __imp__gethostname@8 référencé dans la fonction "void __cdecl GetMyIP_Windows_Linux_IPV4(struct RakNet::SystemAddress * const)" (?GetMyIP_Windows_Linux_IPV4@@YAXQAUSystemAddress@RakNet@@@Z)
+SocketLayer.obj : error LNK2001: symbole externe non résolu __imp__gethostname@8
+SocketLayer.obj : error LNK2019: symbole externe non résolu __imp__WSAIoctl@36 référencé dans la fonction "public: static class RakNet::RakString __cdecl RakNet::SocketLayer::GetSubNetForSocketAndIp(unsigned int,class RakNet::RakString)" (?GetSubNetForSocketAndIp@SocketLayer@RakNet@@SA?AVRakString@2@IV32@@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu ___WSAFDIsSet@8 référencé dans la fonction "unsigned int __stdcall RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YGIPAX@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__accept@12 référencé dans la fonction "unsigned int __stdcall RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YGIPAX@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__connect@12 référencé dans la fonction "protected: unsigned int __thiscall RakNet::TCPInterface::SocketConnect(char const *,unsigned short,unsigned short,char const *)" (?SocketConnect@TCPInterface@RakNet@@IAEIPBDGG0@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__listen@8 référencé dans la fonction "protected: bool __thiscall RakNet::TCPInterface::CreateListenSocket(unsigned short,unsigned short,unsigned short,char const *)" (?CreateListenSocket@TCPInterface@RakNet@@IAE_NGGGPBD@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__recv@16 référencé dans la fonction "public: int __thiscall RakNet::RemoteClient::Recv(char *,int)" (?Recv@RemoteClient@RakNet@@QAEHPADH@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__select@20 référencé dans la fonction "unsigned int __stdcall RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YGIPAX@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__send@16 référencé dans la fonction "public: int __thiscall RakNet::RemoteClient::Send(char const *,unsigned int)" (?Send@RemoteClient@RakNet@@QAEHPBDI@Z)
+TCPInterface.obj : error LNK2019: symbole externe non résolu __imp__shutdown@8 référencé dans la fonction "public: void __thiscall RakNet::TCPInterface::Stop(void)" (?Stop@TCPInterface@RakNet@@QAEXXZ)
+WSAStartupSingleton.obj : error LNK2019: symbole externe non résolu __imp__WSAStartup@8 référencé dans la fonction "public: static void __cdecl WSAStartupSingleton::AddRef(void)" (?AddRef@WSAStartupSingleton@@SAXXZ)
+WSAStartupSingleton.obj : error LNK2019: symbole externe non résolu __imp__WSACleanup@0 référencé dans la fonction "public: static void __cdecl WSAStartupSingleton::Deref(void)" (?Deref@WSAStartupSingleton@@SAXXZ)
+G:\build2\DebugMCPE\McpeServer.exe : fatal error LNK1120: 27 externes non résolus
