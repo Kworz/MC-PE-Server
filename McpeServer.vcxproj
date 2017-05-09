@@ -423,11 +423,6 @@
     <ClInclude Include="..\RakNet\Source\XBox360Includes.h" />
     <ClInclude Include="..\RakNet\Source\_FindFirst.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\RakNet\Source\RakNet.vcproj" />
-    <None Include="..\RakNet\Source\RakNet_vc8.vcproj" />
-    <None Include="..\RakNet\Source\RakNet_vc9.vcproj" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

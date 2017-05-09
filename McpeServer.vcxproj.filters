@@ -816,15 +816,4 @@
       <Filter>RakNet</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\RakNet\Source\RakNet.vcproj">
-      <Filter>RakNet</Filter>
-    </None>
-    <None Include="..\RakNet\Source\RakNet_vc8.vcproj">
-      <Filter>RakNet</Filter>
-    </None>
-    <None Include="..\RakNet\Source\RakNet_vc9.vcproj">
-      <Filter>RakNet</Filter>
-    </None>
-  </ItemGroup>
 </Project>
