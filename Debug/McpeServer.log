@@ -1,4 +1,5 @@
 ﻿  Main.cpp
-g:\build2\mcpeserver\main.cpp(36): warning C4065: l'instruction switch contient 'default' mais aucune étiquette 'case'
-  McpeServer.vcxproj -> G:\build2\Debug\McpeServer.exe
-  McpeServer.vcxproj -> G:\build2\Debug\McpeServer.pdb (Partial PDB)
+g:\mc-pe-server\main.cpp(32): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+g:\mc-pe-server\main.cpp(24): warning C4101: 'packet' : variable locale non référencée
+  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.exe
+  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)
