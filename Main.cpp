@@ -8,6 +8,7 @@
 #include "MessageIdentifiers.h"
 #include "PacketPriority.h"
 #include "RakNetVersion.h"
+#include "Util.h"
 
 #define SERVER_PORT 19132
 #define MAX_CLIENTS 20
@@ -52,6 +53,7 @@ int main(void)
 		message.insert(message.begin(), 0x00);
 
 		peer->SetOfflinePingResponse(message.c_str(), message.size());
+		//peer->InitializeSecurity("MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEDEKneqEvcqUqqFMM1HM1A4zWjJC+I8Y+aKzG5dl+6wNOHHQ4NmG2PEXRJYhujyodFH+wO0dEr4GM1WoaWog8xsYQ6mQJAC0eVpBM96spUB1eMN56+BwlJ4H3Qx4TAvAs", "MB8CAQAwEAYHKoZIzj0CAQYFK4EEACIECDAGAgEBBAEB");
 
 		//infinite loop + tps
 		while (1)
@@ -62,11 +64,21 @@ int main(void)
 				{
 					case 0x00:
 					{
+						printf("[%s]null case\n", processHex(packet->data[0]));
 						break;
+					}
+					case ID_UNCONNECTED_PING:
+					{
+						break;
+					}
+					case ID_NEW_INCOMING_CONNECTION:
+					{
+						printf("Player(%s) tried to join server (packet inc connexion)\n", packet->systemAddress.ToString());
 					}
 					default: 
 					{
-						printf("[%d]default case\n", packet->data[0]);
+						printf("[0x%s]%s\n", processHex(packet->data[0]).c_str(), processHex(packet->data[1]).c_str());
+						
 						break;
 					}
 				}

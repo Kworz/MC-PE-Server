@@ -1,5 +1,0 @@
-﻿  Main.cpp
-g:\mc-pe-server\main.cpp(34): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
-g:\mc-pe-server\main.cpp(25): warning C4101: 'packet' : variable locale non référencée
-  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.exe
-  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)

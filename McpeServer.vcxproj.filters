@@ -351,6 +351,9 @@
     <ClCompile Include="..\RakNet\Source\WSAStartupSingleton.cpp">
       <Filter>RakNet</Filter>
     </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\RakNet\Source\_FindFirst.h">
@@ -814,6 +817,9 @@
     </ClInclude>
     <ClInclude Include="..\RakNet\Source\XBox360Includes.h">
       <Filter>RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Fichiers sources</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

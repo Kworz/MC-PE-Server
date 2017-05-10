@@ -267,6 +267,7 @@
     <ClCompile Include="..\RakNet\Source\WSAStartupSingleton.cpp" />
     <ClCompile Include="..\RakNet\Source\_FindFirst.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\RakNet\Source\AutopatcherPatchContext.h" />
@@ -423,6 +424,7 @@
     <ClInclude Include="..\RakNet\Source\WSAStartupSingleton.h" />
     <ClInclude Include="..\RakNet\Source\XBox360Includes.h" />
     <ClInclude Include="..\RakNet\Source\_FindFirst.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

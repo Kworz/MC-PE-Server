@@ -1,4 +1,5 @@
 ﻿  Main.cpp
-g:\mc-pe-server\main.cpp(51): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+g:\mc-pe-server\main.cpp(52): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+g:\mc-pe-server\main.cpp(67): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'std::string'
   McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.exe
   McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)
