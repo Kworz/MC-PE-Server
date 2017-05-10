@@ -1,0 +1,4 @@
+﻿  Main.cpp
+g:\mc-pe-server\main.cpp(51): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.exe
+  McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)
