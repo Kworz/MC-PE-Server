@@ -266,6 +266,8 @@
     <ClCompile Include="..\RakNet\Source\VitaIncludes.cpp" />
     <ClCompile Include="..\RakNet\Source\WSAStartupSingleton.cpp" />
     <ClCompile Include="..\RakNet\Source\_FindFirst.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
@@ -424,6 +426,7 @@
     <ClInclude Include="..\RakNet\Source\WSAStartupSingleton.h" />
     <ClInclude Include="..\RakNet\Source\XBox360Includes.h" />
     <ClInclude Include="..\RakNet\Source\_FindFirst.h" />
+    <ClInclude Include="Logger.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

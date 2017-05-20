@@ -16,6 +16,27 @@
     <Filter Include="RakNet">
       <UniqueIdentifier>{86d21118-6080-4416-ba41-8be71dcc6482}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Blocks">
+      <UniqueIdentifier>{2fd8983b-0989-41de-9d76-f096fdc64642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Chunks">
+      <UniqueIdentifier>{aa584fb3-8239-4b61-9e2f-539f1b9584fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities">
+      <UniqueIdentifier>{f606fa97-721a-48f1-a8c6-09fae56180d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Tools">
+      <UniqueIdentifier>{692b48b9-0097-4bb3-9b98-b36f02ab0d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Logger">
+      <UniqueIdentifier>{837f14b3-e906-4266-a757-d5fc27aa3730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Level">
+      <UniqueIdentifier>{a0a35ed8-2f67-41b8-a71d-9498ba894b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Level\Generator">
+      <UniqueIdentifier>{eeb622ec-2fab-4fc9-8ccd-c0f40514ae7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -352,7 +373,13 @@
       <Filter>RakNet</Filter>
     </ClCompile>
     <ClCompile Include="Util.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Fichiers sources\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Fichiers sources\Blocks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -819,7 +846,10 @@
       <Filter>RakNet</Filter>
     </ClInclude>
     <ClInclude Include="Util.h">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Fichiers sources\Logger</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
