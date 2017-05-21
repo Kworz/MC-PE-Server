@@ -28,14 +28,17 @@
     <Filter Include="Fichiers sources\Tools">
       <UniqueIdentifier>{692b48b9-0097-4bb3-9b98-b36f02ab0d71}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Logger">
-      <UniqueIdentifier>{837f14b3-e906-4266-a757-d5fc27aa3730}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\Level">
       <UniqueIdentifier>{a0a35ed8-2f67-41b8-a71d-9498ba894b6a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Fichiers sources\Level\Generator">
       <UniqueIdentifier>{eeb622ec-2fab-4fc9-8ccd-c0f40514ae7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Network">
+      <UniqueIdentifier>{f4e1b41e-25ba-4d6a-81b2-78cb6c7e1445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Network\Packets">
+      <UniqueIdentifier>{51066170-4a60-4ce4-8078-c4a45748493a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -374,9 +377,6 @@
     </ClCompile>
     <ClCompile Include="Util.cpp">
       <Filter>Fichiers sources\Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="Logger.cpp">
-      <Filter>Fichiers sources\Logger</Filter>
     </ClCompile>
     <ClCompile Include="Block.cpp">
       <Filter>Fichiers sources\Blocks</Filter>
@@ -847,9 +847,6 @@
     </ClInclude>
     <ClInclude Include="Util.h">
       <Filter>Fichiers sources\Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="Logger.h">
-      <Filter>Fichiers sources\Logger</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

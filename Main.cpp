@@ -92,11 +92,13 @@ int main(void)
 
 						RakNet::BitStream send;
 
-						send.Write((int) 0x80);
-						send.Write((int) 0);
+						send.Write((int) 0x02);
+						send.Write((int) 1);
 
-						peer->Send(&send, IMMEDIATE_PRIORITY, UNRELIABLE, NULL, packet->systemAddress, false, 1);
+						if(peer->Send(&send, IMMEDIATE_PRIORITY, UNRELIABLE, NULL, packet->systemAddress, false, 1) == 0)
+						{
 
+						}
 						break;
 					}
 					case 0x15:
