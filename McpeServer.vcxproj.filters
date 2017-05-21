@@ -381,6 +381,9 @@
     <ClCompile Include="Block.cpp">
       <Filter>Fichiers sources\Blocks</Filter>
     </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Fichiers sources\Network\Packets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\RakNet\Source\_FindFirst.h">
@@ -847,6 +850,9 @@
     </ClInclude>
     <ClInclude Include="Util.h">
       <Filter>Fichiers sources\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Fichiers sources\Network\Packets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

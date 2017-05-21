@@ -1,5 +1,10 @@
-﻿  Main.cpp
-g:\mc-pe-server\main.cpp(63): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
-g:\mc-pe-server\main.cpp(77): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'std::string'
+﻿  Server.cpp
+g:\mc-pe-server\server.cpp(36): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+g:\mc-pe-server\server.cpp(45): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type '__int64'
+  g:\mc-pe-server\server.cpp(45): note: utilisez '%lld' dans la chaîne de format
+  g:\mc-pe-server\server.cpp(45): note: utilisez '%I64d' dans la chaîne de format
+g:\mc-pe-server\server.cpp(23): warning C4101: 'packet' : variable locale non référencée
+  Main.cpp
+  Génération de code en cours...
   McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.exe
   McpeServer.vcxproj -> G:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)

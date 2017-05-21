@@ -11,15 +11,11 @@
 #include "BitStream.h"
 
 #include "Util.h"
-//#include "Logger.h"
+#include "Server.h"
 
-#define SERVER_PORT 19132
-#define SERVER_IP "0.0.0.0"
 #define MAX_CLIENTS 20
 #define TPS 20
 #define SERVER_NAME "MC++SERVER"
-#define MCPE_PROTOCOL "107"
-#define MCPE_VERSION "1.0.7" //Major-Minor-Patch
 
 using namespace std;
 
@@ -28,16 +24,25 @@ int tps[20] = { 20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20 };
 
 int main(void)
 {
-	//Logger MainLogger = Logger("MC++");
-
 	//Hello wurld
-	//MainLogger.appendLine("Starting MC++PE Server", 0);
 
 	printf("Starting %s\n", SERVER_NAME);
 	printf("RakNet Protocol : %d\n", RAKNET_PROTOCOL_VERSION);
 	printf("MCPE Version : [%s]%s\n", MCPE_PROTOCOL, MCPE_VERSION);
 	printf("Maximum player count : %d\n", MAX_CLIENTS);
-	
+
+	if(Packets::InvokeServer(19132, "0.0.0.0", 20, "MC++ testserver") == 0)
+	{
+		while (1);
+	}
+	else
+	{
+		printf("error");
+		while (1);
+	}
+
+
+	/*
 	//Raknet stuff
 	RakNet::RakPeerInterface *peer = RakNet::RakPeerInterface::GetInstance();
 	RakNet::Packet *packet;
@@ -120,4 +125,5 @@ int main(void)
 	{
 		printf("Error while binding Port:%d\n", SERVER_PORT);
 	}
+	*/
 }
