@@ -14,7 +14,7 @@ using namespace RakNet;
 
 namespace Packets
 {
-	int InvokeServer(int gamePort, char* ipAddr, int maxPlayers, char* serverName)
+	void InvokeServer(int gamePort, char* ipAddr, int maxPlayers, char* serverName)
 	{
 		high_resolution_clock::time_point timeBefore = high_resolution_clock::now();
 
@@ -40,16 +40,15 @@ namespace Packets
 
 			high_resolution_clock::time_point timeAfter = high_resolution_clock::now();
 
-			auto ExecTime = duration_cast<milliseconds>(timeAfter - timeBefore).count();
+			long ExecTime = duration_cast<milliseconds>(timeAfter - timeBefore).count();
 
 			printf("Server Invoked, Took %dms\n", ExecTime);
 			printf("Binded server on %s:%d\n", ipAddr, gamePort);
 
-			return 0;
-		}
-		else
-		{
-			return 1;
+			while(1)
+			{
+				Sleep(1000 / 20);
+			}
 		}
 	}
 };

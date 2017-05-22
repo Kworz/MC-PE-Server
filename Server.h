@@ -14,5 +14,5 @@ using namespace RakNet;
 
 namespace Packets
 {
-	int InvokeServer(int gamePort, char* ipAddr, int maxPlayers, char* serverName);
+	void InvokeServer(int gamePort, char* ipAddr, int maxPlayers, char* serverName);
 };
