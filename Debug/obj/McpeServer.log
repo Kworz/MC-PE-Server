@@ -1,3 +1,7 @@
-﻿  Consolecommands.cpp
+﻿  Server.cpp
+d:\mc-pe-server\server.cpp(37): warning C4267: 'argument' : conversion de 'size_t' en 'const char', perte possible de données
+d:\mc-pe-server\server.cpp(44): warning C4244: 'initialisation' : conversion de '__int64' en 'long', perte possible de données
+  Main.cpp
+  Génération de code en cours...
   McpeServer.vcxproj -> D:\MC-PE-Server\Debug\McpeServer.exe
   McpeServer.vcxproj -> D:\MC-PE-Server\Debug\McpeServer.pdb (Partial PDB)

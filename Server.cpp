@@ -4,6 +4,7 @@
 
 #include "RakPeerInterface.h"
 #include "RakNetTypes.h"
+#include "Util.h"
 
 #define MCPE_PROTOCOL "107"
 #define MCPE_VERSION "1.0.7" //Major-Minor-Patch
@@ -47,7 +48,10 @@ namespace Packets
 
 			while(1)
 			{
-				Sleep(1000 / 20);
+				for (packet = PeerInterface->Receive(); packet; PeerInterface->DeallocatePacket(packet), packet = PeerInterface->Receive())
+				{
+					printf("[0x%s]%s", processHex(packet->data[0]).c_str(), packet->data);
+				}
 			}
 		}
 	}
